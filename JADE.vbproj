@@ -112,10 +112,6 @@
     <Reference Include="MetroFramework.Fonts">
       <HintPath>packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Office.Interop.Excel1">
-      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio 10.0\Visual Studio Tools for Office\PIA\Office12\Microsoft.Office.Interop.Excel.dll</HintPath>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </Reference>
     <Reference Include="Microsoft.Office.Interop.Outlook, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
@@ -1354,28 +1350,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <COMReference Include="Microsoft.Office.Core">
-      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
-      <VersionMajor>2</VersionMajor>
-      <VersionMinor>8</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>primary</WrapperTool>
-      <Isolated>False</Isolated>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </COMReference>
     <COMReference Include="stdole">
       <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
       <VersionMajor>2</VersionMajor>
       <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>primary</WrapperTool>
-      <Isolated>False</Isolated>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </COMReference>
-    <COMReference Include="VBIDE">
-      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
-      <VersionMajor>5</VersionMajor>
-      <VersionMinor>3</VersionMinor>
       <Lcid>0</Lcid>
       <WrapperTool>primary</WrapperTool>
       <Isolated>False</Isolated>

@@ -22,7 +22,7 @@
 
     Private Sub Disbursement_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Try
-            Me.Text = "(" & database & ") - Check Voucher "
+            Me.Text = "(" & database & ") - Check Voucher (CV)"
             TransAuto = GetTransSetup(ModuleID)
             LoadBankList()
             LoadMultipleBank()
